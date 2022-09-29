@@ -26,5 +26,5 @@ fs.readdir(folder, (err, files) => {
 
 function analyze(data, file) {
   console.log("RESULTS\n=======");
-  return data.forEach((k) => console.log(k.key + " : " + k.val));
+  return data.forEach((k) => console.log(k.key + ": " + k.val));
 }
